@@ -8,7 +8,7 @@
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
   <Support/>
-  <Project/>
+  <Project>https://github.com/xsharov/enchanted-ollama-openrouter-proxy</Project>
   <Overview/>
   <Category/>
   <WebUI/>
@@ -17,7 +17,7 @@
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1751319188</DateInstalled>
+  <DateInstalled>1751319868</DateInstalled>
   <DonateText/>
   <DonateLink/>
   <Requires/>
