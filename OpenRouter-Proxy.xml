@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Container version="2">
-  <Name>OpenRouter-Proxy</Name>
+  <Name>OpenRouter-OllamaProxy</Name>
   <Repository>dogberttech/openrouter-ollamaproxy:latest</Repository>
   <Registry/>
   <Network>bridge</Network>
@@ -17,12 +17,12 @@
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1751333210</DateInstalled>
+  <DateInstalled>1751337176</DateInstalled>
   <DonateText/>
   <DonateLink/>
   <Requires/>
   <Config Name="Ollama Proxy Port" Target="11434" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">11434</Config>
-  <Config Name="OpenRouter-API-Key" Target="OPENAI_API_KEY" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="true">Your-OpenRouter-API-Key</Config>
-  <Config Name="Models File Directory" Target="/models-filter" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/disks/models-filter</Config>
+  <Config Name="OpenRouter-API-Key" Target="OPENAI_API_KEY" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="true">Your_OpenRouter_API_Key</Config>
+  <Config Name="Models File Directory" Target="/config" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/models</Config>
   <TailscaleStateDir/>
 </Container>
