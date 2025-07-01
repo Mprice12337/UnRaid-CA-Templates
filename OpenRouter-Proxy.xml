@@ -7,7 +7,7 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support/>
+  <Support>https://forums.unraid.net/topic/191604-support-openrouter-ollamaproxy</Support>
   <Project>https://github.com/Mprice12337/OpenRouter-OllamaProxy</Project>
   <Overview/>
   <Category/>
