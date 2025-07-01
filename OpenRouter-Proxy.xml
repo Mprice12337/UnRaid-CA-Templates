@@ -1,14 +1,14 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>OpenRouter-Proxy</Name>
-  <Repository>dogberttech/openrouter-ollama-proxy:0.2</Repository>
+  <Repository>dogberttech/openrouter-ollamaproxy:latest</Repository>
   <Registry/>
   <Network>bridge</Network>
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
   <Support/>
-  <Project>https://github.com/xsharov/enchanted-ollama-openrouter-proxy</Project>
+  <Project>https://github.com/Mprice12337/OpenRouter-OllamaProxy</Project>
   <Overview/>
   <Category/>
   <WebUI/>
@@ -17,12 +17,12 @@
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1751319868</DateInstalled>
+  <DateInstalled>1751332938</DateInstalled>
   <DonateText/>
   <DonateLink/>
   <Requires/>
-  <Config Name="Ollama Proxy Port" Target="11434" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">11434</Config>
-  <Config Name="OpenRouter-API-Key" Target="OPENAI_API_KEY" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="true">Your-OpenRouter-API-Key</Config>
-  <Config Name="Models File Directory" Target="/models-filter" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/models</Config>
+  <Config Name="Ollama Proxy Port" Target="11434" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">11435</Config>
+  <Config Name="OpenRouter-API-Key" Target="OPENAI_API_KEY" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="true">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</Config>
+  <Config Name="Models File Directory" Target="/models-filter" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/disks/models-filter</Config>
   <TailscaleStateDir/>
 </Container>
