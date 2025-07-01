@@ -23,6 +23,6 @@
   <Requires/>
   <Config Name="Ollama Proxy Port" Target="11434" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">11434</Config>
   <Config Name="OpenRouter-API-Key" Target="OPENAI_API_KEY" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="true">Your_OpenRouter_API_Key</Config>
-  <Config Name="Models File Directory" Target="/config" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/models</Config>
+  <Config Name="Models File Directory" Target="/config" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/config</Config>
   <TailscaleStateDir/>
 </Container>
